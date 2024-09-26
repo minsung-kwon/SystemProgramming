@@ -34,7 +34,6 @@ typedef struct Dictionary {
     size_t Size;
     size_t Capacity;
     
-    // Function pointers for dictionary operations
     void (*Insert)(struct Dictionary*, const char*, int);
     void (*Remove)(struct Dictionary*, const char*);
     int (*Search)(struct Dictionary*, const char*);
@@ -83,7 +82,7 @@ static int Search(Dictionary* dict, const char* key) {
             return dict->Items[i].Value;
         }
     }
-    return -1; // Not found
+    return -1;
 }
 
 static void List(Dictionary* dict) {
