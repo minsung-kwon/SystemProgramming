@@ -40,7 +40,6 @@ typedef struct Dictionary {
     void (*List)(struct Dictionary*);
 } Dictionary;
 
-// Function declarations
 Dictionary* CreateDictionary();
 void DestroyDictionary(Dictionary* dict);
 
