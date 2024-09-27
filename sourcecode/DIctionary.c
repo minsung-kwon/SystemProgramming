@@ -32,7 +32,7 @@ static int SearchByValue(Dictionary* dict, const char* key) {
             return dict->Items[i].Value;
         }
     }
-    return -1; // Not found
+    return -1;
 }
 
 static void List(Dictionary* dict) {
@@ -47,7 +47,6 @@ Dictionary* CreateDictionary() {
     dict->Size = 0;
     dict->Capacity = INITIAL_CAPACITY;
 
-    // Assign function pointers
     dict->Insert = Insert;
     dict->Remove = RemoveItem;
     dict->Search = SearchByValue;
