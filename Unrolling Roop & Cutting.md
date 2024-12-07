@@ -4,7 +4,7 @@
 상수 커팅의 가장 대표적인 방법은 unrolling roop이다.  
 unrolling roop는 반복문의 돌아가는 횟수를 최소화하여 프로그램의 런타임을 줄이는 방법이다.  
 <br>
-https://codeforces.com/contest/2050/problem/D
+https://codeforces.com/contest/2050/problem/D  
 이 문제는 문자열로 주어진 숫자를 최대화하는 문제이다.  
 문제에서 주어지는 문자열의 최대 길이는 2*1e5이다.  
 따라서 헤당 길이의 랜덤 문자열을 생성하는 것이 최악의 경우이다.  
